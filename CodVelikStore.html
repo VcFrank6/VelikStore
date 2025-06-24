@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <title>VelikStore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo-titulo">
+      <img src="img/logo.png" alt="Logo de VelikStore" class="logo">
+      <h1>VelikStore</h1>
+    </div>
+  
+    <!-- NUEVO contenedor para categorías + navegación -->
+    <div class="header-nav">
+      <div class="categorias-menu">
+        <button class="btn-categorias" onclick="toggleMenu()">Categorías ▾</button>
+        <div class="menu-opciones" id="menuCategorias">
+          <button>Blusas</button>
+          <button>Sombreros</button>
+          <button>Pantalones</button>
+          <button>Faldas</button>
+          <button>Carteras</button>
+          <button>Sacos</button>
+          <button>Playa</button>
+        </div>
+      </div>
+  
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#redes">Redes</a>
+      </nav>
+    </div>
+  </header>
+  
+ 
+  
+  <section id="inicio">
+    <div class="banner-con-logo">
+      <div class="banner-box">
+        <img src="img/banner_mejorado.jpg" alt="Banner VelikStore" class="banner">
+      </div>
+      <div class="logo-box">
+        <img src="img/logo.png" alt="Logo VelikStore" class="logo-derecha">
+      </div>
+      <!-- Botón de Categorías -->
+
+</div>
+
+    </div>
+    <h2>Bienvenida a VelikStore</h2>
+    <p>Tu estilo, tu elegancia. Ropa juvenil y moderna.</p>
+  </section>
+  
+
+      <section id="catalogo">
+        <h2>Catálogo</h2>
+        <div class="productos">
+      
+          <div class="producto">
+            <img src="img/cafarena.png" alt="Blusa beige elegante">
+            <h3>Blusa Beige</h3>
+            <p>S/ 59.90</p>
+            <button>Añadir al carrito</button>
+          </div>
+      
+          <div class="producto">
+            <img src="img/cfcorrugada.png" alt="Falda juvenil crema">
+            <h3>Falda Crema</h3>
+            <p>S/ 49.90</p>
+            <button>Añadir al carrito</button>
+          </div>
+      
+          <div class="producto">
+            <img src="img/cftejida.png" alt="Vestido juvenil elegante">
+            <h3>Vestido Elegante</h3>
+            <p>S/ 89.90</p>
+            <button>Añadir al carrito</button>
+          </div>
+      
+          <!-- Agrega más productos aquí -->
+      
+        </div>
+      </section>
+      
+      <!-- Aquí irán los productos -->
+    </div>
+  </section>
+
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas o pedidos especiales?</p>
+    <p>Escríbenos por WhatsApp o correo: velikstore@gmail.com</p>
+  </section>
+
+  <section id="redes">
+    <h2>Síguenos</h2>
+    <div class="redes-iconos">
+      <a href="https://www.instagram.com/velikstore_/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61565571397277" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-tiktok"></i></a>
+    </div>
+  </section>
+  
+
+  <footer>
+    <p>&copy; 2025 VelikStore. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <canvas id="sparkleCanvas"></canvas>
+<script src="brillitos.js"></script>
+</body>
+</html>
